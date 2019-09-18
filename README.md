@@ -12,7 +12,7 @@
 
 ## General info
 
-This project served as an introduction to working with animations and sounds in javascript. For the animations, a library called Paper.js is utilized which is an open source vector graphics scripting framework which runs ontop of the HTML5 Canvas. This framework allows the animation of elements within a rendered space declared as a Canvas. Howler.js is an audio library which makes working with audio files easy by creating Howls for the audio files. Both of these libraries work seamlessy together in order to generate a sound and animation on a keypress.
+The purpose of this project was to serve as an introduction to working with animations and sounds in javascript. For the animations, a library called Paper.js is utilized which is an open source vector graphics scripting framework which runs ontop of the HTML5 Canvas. This framework allows the animation of elements within a rendered space declared as a Canvas. Howler.js is an audio library which makes working with audio files easy by creating Howls for the audio files. Both of these libraries work seamlessly together to produce a sound and animation for different key presses.
 
 ## Technologies
 
