@@ -1,36 +1,46 @@
 # Patatap
 
-> Here goes your awesome project description!
+> A sound and animation on key press project built on Paperscript and Howler.js
 
 ## Table of contents
 
 - [General info](#general-info)
 - [Technologies](#technologies)
-- [Setup](#setup)
+- [Code examples](#code-examples)
 - [Status](#status)
 - [Inspiration](#inspiration)
 
 ## General info
 
-Add more general information about project. What the purpose of the project is? Motivation?
+This project served as an introduction to working with animations and sounds in javascript. For the animations, a library called Paper.js is utilized which is an open source vector graphics scripting framework which runs ontop of the HTML5 Canvas. This framework allows the animation of elements within a rendered space declared as a Canvas. Howler.js is an audio library which makes working with audio files easy by creating Howls for the audio files. Both of these libraries work seamlessy together in order to generate a sound and animation on a keypress.
 
 ## Technologies
 
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Paper.js - version 0.12.3
+- Howler.js - version 2.1.2
+- jQuery - version 3.4.1
 
-## Setup
+## Code examples
 
-Describe how to install / setup your local environement / add link to demo version.
+Example of the Paper.js script which expands on the HTML5 canvas element and creates an area to allow the animation of objects:
+
+```html
+<script type="text/paperscript" canvas="myCanvas"></script>
+```
+
+Example of a Howler.js Howl:
+
+```javascript
+var sound = new Howl({
+  src: ["sound.mp3"]
+});
+sound.play();
+```
 
 ## Status
 
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_, as I would like to add more dynamic and varied effects to the animations.
 
 ## Inspiration
 
-Add here credits. Project inspired by..., based on...
-
-<!-- HTML5, CSS, JS, jQuery, Paper.js (Paperscript), Howler.js -->
-<!-- HTML5 includes "canvas" which paper uses -->
+This project was inspired by the original [Patatap](patatap.com) which I highly recommend you check out!
