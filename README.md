@@ -18,9 +18,9 @@ This app is hosted via Heroku at https://oarnosa-patatap-clone.herokuapp.com
 
 ## Technologies
 
-- Paper.js - version 0.12.3
-- Howler.js - version 2.1.2
-- jQuery - version 3.4.1
+- Paper.js - v0.12.3
+- Howler.js - v2.1.2
+- jQuery - v3.4.1
 
 ## Code examples
 
