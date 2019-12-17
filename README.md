@@ -5,6 +5,7 @@
 ## Table of contents
 
 - [General info](#general-info)
+- [Hosting](#hosting)
 - [Technologies](#technologies)
 - [Code examples](#code-examples)
 - [Status](#status)
@@ -13,6 +14,8 @@
 ## General info
 
 The purpose of this project was to serve as an introduction to working with animations and sounds in javascript. For the animations, a library called Paper.js is utilized which is an open source vector graphics scripting framework which runs ontop of the HTML5 Canvas. This framework allows the animation of elements within a rendered space declared as a Canvas. Howler.js is an audio library which makes working with audio files easy by creating Howls for the audio files. Both of these libraries work seamlessly together to produce a sound and animation for different key presses.
+
+## Hosting
 
 This app is hosted via Heroku at https://oarnosa-patatap-clone.herokuapp.com
 
